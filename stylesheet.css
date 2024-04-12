@@ -1,0 +1,355 @@
+.webb-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .webb-page .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .webb-page .logo {
+    position: absolute;
+    width: 192px;
+    height: 35px;
+    top: 956px;
+    left: 1195px;
+  }
+  
+  .webb-page .union {
+    position: absolute;
+    width: 143px;
+    height: 26px;
+    top: 4px;
+    left: 49px;
+  }
+  
+  .webb-page .group {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: 0;
+    left: 0;
+  }
+  
+  .webb-page .text-wrapper {
+    position: absolute;
+    width: 774px;
+    top: 42px;
+    left: 91px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 48px;
+    letter-spacing: 0.48px;
+    line-height: 48px;
+  }
+
+  .webb-page #equation-text{
+    position: absolute;
+    width: 774px;
+    top: 405px;
+    left: 629px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.48px;
+    line-height: 48px;
+  }
+
+  .webb-page #r2-text{
+    position: absolute;
+    width: 774px;
+    top: 405px;
+    left: 953px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.48px;
+    line-height: 48px;
+  }
+  
+  .webb-page .overlap {
+    top: 179px;
+    left: 91px;
+    position: absolute;
+    width: 1296px;
+    height: 463px;
+  }
+  
+  .webb-page .overlap-group {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 1296px;
+    height: 463px;
+  }
+  
+  .webb-page .text-wrapper-2 {
+    position: absolute;
+    width: 774px;
+    top: 388px;
+    left: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 48px;
+    letter-spacing: 0.48px;
+    line-height: 48px;
+  }
+  
+  .webb-page #plot {
+    position: absolute;
+    width: 667px;
+    height: 400px;
+    top: 0;
+    left: 629px;
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #20285e;
+    border-radius: 10px;
+  }
+  
+  
+  .webb-page .load-button {
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    top: 0px;
+    left: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background-color: #cfdb42;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid;
+    border-color: #20285e;
+    color: #20285e;
+  }
+  
+  .webb-page .load-button:hover {
+    background-color: rgba(207, 219, 66, 0.8); /* Green color with 50% opacity */
+    }
+
+  .webb-page .div-wrapper {
+    width: 80px;
+    top: 0;
+    left: 317px;
+    border: 3px solid;
+    border-color: #20285e;
+    position: absolute;
+    height: 48px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  
+
+  .webb-page #volume{
+    width: 75px;
+    height: 43px;
+    top: 1px;
+    left: 317px;
+    border-radius: 13px;
+    border: 3px solid;
+    border-color: #20285e;
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #20285e93;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+  
+  .webb-page #dilution-factor{
+    height: 43px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #20285e93;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    font-weight: 500;
+    width: 75px;
+    top: 1px;
+    left: 517px;
+    border: 3px solid;
+    border-color: #20285e;
+    position: absolute;
+    border-radius: 13px;
+    overflow: hidden;
+  }
+  
+  .webb-page .frame-sample {
+    width: 597px;
+    top: 214px;
+    left: 0;
+    border: 3px solid;
+    border-color: #20285e;
+    position: absolute;
+    height: 48px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  
+  .webb-page .sample-data {
+    position: absolute;
+    width: 410px;
+    top: 13px;
+    left: 23px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e2d;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+  }
+
+  .webb-page #plot-selection{
+    width: 115px;
+    top: 130px;
+    left: 1135px;
+    border: 3px solid;
+    border-color: #20285e;
+    position: relative;
+    height: 35px;
+    border-radius: 8px;
+    color: #20285e;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;;
+  }
+
+  .webb-page #plot-slection-label{
+    width: 115px;
+    top: 130px;
+    left: 1120px;
+    position: relative;
+    height: 35px;
+    color: #20285e;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;;
+  }
+  
+  .webb-page #concentrations{
+    width: 570px;
+    height: 43px;
+    top: 110px;
+    left: 0px;
+    border-radius: 13px;
+    border: 3px solid;
+    border-color: #20285e;
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #20285e93;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    padding-left: 23px;
+    font-weight: 500;
+  }
+
+  .webb-page .concentration-label{
+    position: absolute;
+    width: 220px;
+    top: 74px;
+    left: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+  }
+
+  .webb-page .loaded-data-label{
+    position: absolute;
+    width: 220px;
+    top: 180px;
+    left: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+  }
+
+  .webb-page .text-wrapper-6 {
+    position: absolute;
+    width: 82px;
+    top: 14px;
+    left: 220px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+  }
+  
+  .webb-page .dilution-factor-label {
+    position: absolute;
+    width: 87px;
+    top: 5px;
+    left: 415px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #20285e;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+  }
+  
+  .webb-page .text-wrapper-7 {
+    position: absolute;
+    width: 774px;
+    top: 103px;
+    left: 91px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    color: #20285e;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: 32px;
+  }
+  
+  .webb-page .table-results{
+    position: absolute;
+    top: 640px;
+    left: 91px;
+  }
+
+  .webb-page .table-results th {
+    /* CSS properties */
+    font-family: 'Lexend Deca', sans-serif; /* Example font */
+    font-size: 18px; /* Example size */
+    color: #20285e; /* Example text color */
+    background-color: #cedb42; /* Example background color */
+    padding: 10px; /* Example padding */
+}
+
+.webb-page .table-results td {
+  /* CSS properties */
+  font-family: 'Lexend Deca', sans-serif; /* Example font */
+  font-size: 18px; /* Example size */
+  color: #20285e; /* Example text color */
+  background-color: #20285e13; /* Example background color */
+  padding: 10px; /* Example padding */
+}

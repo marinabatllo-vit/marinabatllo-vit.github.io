@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="webb-page">
+      <div class="div">
+        <div class="logo"><img class="union" src="Logo.png" /></div>
+        <div class="text-wrapper">NADH Data Analysis</div>
+        <label for="plot-selection" id="plot-slection-label">Plot Selection:</label>
+            <select id="plot-selection" name="plot-selection">
+              <option value="nadh">NADH curve</option>
+              <option value="column">Column Plot</option>
+            </select>
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="text-wrapper-2">Results:</div>
+            <div id="plot"></div>
+          </div>
+          <button class="load-button" onclick="selectDocument()">Load Data</button>
+            <input type="file" id="fileInput" style="display: none;" onchange="saveFile(this)" accept=".csv">
+
+          <div class="frame-sample"><div class="sample-data">Sample Data.csv</div></div>
+          <label class="loaded-data-label">Loaded Data:</label>
+          <label for="concentrations" class="concentration-label">NADH Concentrations</label>
+            <input type="text" id="concentrations" name="concentrations" value="0, 2.5, 5, 7.5, 10, 12.5">
+          <label for="volume" class="text-wrapper-6">Volume:</label>
+            <input type="number"id="volume" name="volume" value="0.05"
+            min="0" max="50" step="0.05">
+          <div id="equation-text">Equation:</div>
+          <div id="r2-text">R2:</div>
+          <label for="dilution-factor" class="dilution-factor-label">Dilution <br />Factor:</label>
+            <input type="number"id="dilution-factor" name="dilution-factor" value="1"
+                min="0" max="10" step="1">
+        </div>
+        <table class="table-results" style="width: 90%;">
+            <colgroup>
+                <col span="1" style="width: 19%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+                <col span="1" style="width: 6%;">
+             </colgroup>
+
+            <tr>
+              <th></th> <!-- Empty corner cell -->
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>6</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+            </tr>
+            <tr><th class="NADH">NADH</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><th>Sample-1</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><th>Sample-2</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><th>Sample-3</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            <tr><th>Control</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+          </table>
+        <div class="text-wrapper-7">Vitala Technologies</div>
+      </div>
+    </div>
+    <script src="functions.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://unpkg.com/simple-statistics@6.0.0/dist/simple-statistics.min.js"></script>
+  </body>
+</html>
